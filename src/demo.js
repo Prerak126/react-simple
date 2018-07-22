@@ -4,7 +4,7 @@ import { createStore } from 'redux';
 class ReduxDemo extends Component {
 
     render() {
-
+ 
     const reducer = function(state, action){
         if(action.type === "ATTACK"){
             return action.payload
